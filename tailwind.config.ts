@@ -53,10 +53,6 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				field: {
-					green: 'hsl(var(--field-green))',
-					line: 'hsl(var(--field-line))'
-				},
 				zone: {
 					hover: 'hsl(var(--zone-hover))',
 					active: 'hsl(var(--zone-active))'

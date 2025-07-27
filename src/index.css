@@ -105,7 +105,6 @@ All colors MUST be HSL.
     --radius: 0.75rem;
 
     /* Field colors */
-    --field-line: 0 0% 100%;
     --zone-hover: 120 50% 85%;
     --zone-active: 45 80% 70%;
     --zone-marked: 220 100% 50%;

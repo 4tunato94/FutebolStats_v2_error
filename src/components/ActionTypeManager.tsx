@@ -160,9 +160,6 @@ export function ActionTypeManager() {
                           </div>
                         </div>
                       ))}
-                       {actionType.changesPossession && (
-                         <span className="text-xs bg-primary text-primary-foreground px-2 py-1 rounded">Muda Posse</span>
-                       )}
                     </div>
                   </div>
                 )}
@@ -225,6 +222,9 @@ export function ActionTypeManager() {
                   <span>{actionType.name}</span>
                   {actionType.requiresPlayer && (
                     <span className="text-xs bg-muted px-2 py-1 rounded">Jogador</span>
+                  )}
+                  {actionType.changesPossession && (
+                    <span className="text-xs bg-primary text-primary-foreground px-2 py-1 rounded">Muda Posse</span>
                   )}
                    {actionType.counterAction && (
                      <span className="text-xs bg-accent px-2 py-1 rounded">Contra-ação</span>

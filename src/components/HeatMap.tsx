@@ -68,7 +68,7 @@ export function HeatMap({ game }: HeatMapProps) {
           </div>
           
           {/* Heat Map Grid */}
-          <div className="relative bg-field-green rounded-lg p-4" style={{ aspectRatio: '16/10' }}>
+          <div className="relative bg-green-600 rounded-lg p-4" style={{ aspectRatio: '16/10' }}>
             {/* Field markings */}
             <div className="absolute inset-0 border-2 border-white rounded-lg">
               {/* Center circle */}

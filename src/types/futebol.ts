@@ -2,8 +2,8 @@ export interface Player {
   id: string
   number: number
   name: string
-  position: 'Goleiro' | 'Zagueiro' | 'Lateral Esquerdo' | 'Lateral Direito' | 'Meio-campista' | 'Atacante'
-  role: 'Goleiro Tradicional' | 'Goleiro-Líbero' | 'Zagueiro Central' | 'Zagueiro Construtor' | 'Líbero' | 'Lateral Defensivo' | 'Lateral Apoiador' | 'Lateral Construtor' | 'Ala' | 'Cabeça de Área' | 'Primeiro Volante' | 'Segundo Volante' | 'Meia Box-to-Box' | 'Meia Armador' | 'Meia Central' | 'Meia-atacante' | 'Meia de Ligação' | 'Ponta' | 'Extremo' | 'Ponta Invertido' | 'Segundo Atacante' | 'Centroavante' | 'Homem de Área' | 'Pivô' | 'Falso 9'
+  position: string
+  role?: string
   isStarter?: boolean
   isCaptain?: boolean
   fieldPosition?: { x: number; y: number }
